@@ -17,37 +17,37 @@
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#"home>Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Work</a>
+                <a class="nav-link" href="#work">Work</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
             </div>
         </div>
     </nav>
     <section id="home" class="home container">
-        <div class="row d-flex align-items-center">
-            <div class="col-8">
+        <div class="row d-flex align-items-center flex-md-row flex-column-reverse">
+            <div class="col-12 col-md-8">
                 <h3 class="fw-semibold">Hi! I'm</h3>
                 <h1 class="fw-bold">John Doe</h1>
                 <p>I am softwer engineer based in indonesia</p>
                 <a class="btn button" href="/Portfolio/potrait.png" download>Resume</a>
             </div>
-            <div class="col-4">
+            <div class="col-12 col-md-4 d-flex justify-content-md-end justify-content-cemter">
                 <img src="/Portfolio/potrait.png" alt="potrait">
             </div>
         </div>
-        <div class="arrow w-100 d-flex align-items-center flex-column mt-5">
-            <a class="text-decoration-none text-dark" href="#about">More Info</a>
+        <a href="#about" class="text-decoration-none arrow w-100 d-flex align-items-center flex-column mt-5">
+            <div class=" text-dark" >More Info</div>
             <img id="arrow" class="mt-2" src="/Portfolio/arrow.svg" alt="arrow icon">
-        </div>
+        </a>
     </section>
     <section id="about" class="about container">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quia, nobis quibusdam dolore ea totam! Nesciunt deserunt assumenda ea corporis? Quisquam pariatur eos placeat alias repudiandae fuga nihil in voluptatum velit est sit libero tempora cumque voluptatem tenetur blanditiis non recusandae rem ad quo quos corrupti, iste esse nobis. Sequi.</p>
@@ -86,10 +86,10 @@
     </section>
     <section id="work" class="work container">
         <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-5">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum molestias vitae amet natus aut laborum esse consequuntur in sit temporibus doloremque dolorem maxime odit quod, voluptatibus sed provident numquam? Excepturi veritatis repellat obcaecati nulla quaerat quia, fugit velit molestias, temporibus eaque voluptatem nam dolorum accusamus dicta iure facere doloremque!</p>
             </div>
-            <div class="col work-img">
+            <div class="col-12 col-6 work-img">
                 <div id="work-1" class="work-img-item">
                     <img src="/Portfolio/work-1.png" alt="work 1" >
                 </div>
@@ -104,24 +104,24 @@
     </section>
     <section id="contact" class="contact container">
         <div class="row d-flex align-items-center gap-5">
-            <div class="col">
+            <div class="col-12 col-lg-6">
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi qui explicabo cumque odit magnam ut animi accusantium, natus et alias praesentium, sunt a repudiandae consectetur consequatur. Deleniti perspiciatis delectus ratione officia deserunt odit voluptatibus, mollitia, temporibus iure quas magnam dicta illo! Porro modi et dolores quisquam corporis vitae sit aliquid!</p>
                 <div class="row">
                     <div class="col d-flex align-items-center">
-                        <img src="/Portfolio/Facebook.svg" alt="">
-                        <p>John Doe</p>
+                        <img class="w-25" src="/Portfolio/Facebook.svg" alt="">
+                        <p class="mb-0 ms-2">John Doe</p>
                     </div>
                     <div class="col d-flex align-items-center">
-                        <img src="/Portfolio/Instagram.svg" alt="">
-                        <p>@JohnDoe</p>
+                        <img class="w-25 src="/Portfolio/Instagram.svg" alt="">
+                        <p class="mb-0 ms-2">@JohnDoe</p>
                     </div>
                     <div class="col d-flex align-items-center">
-                        <img src="/Portfolio/Twitter.svg" alt="">
-                        <p>John Doe</p>
+                        <img class="w-25 src="/Portfolio/Twitter.svg" alt="">
+                        <p class="mb-0 ms-2">John Doe</p>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col-12 col-lg-5">
                 <form class="contact-form" onsubmit="onFormSubmit(event)">
                     <div class="mb-3">
                         <label for="inp_email" class="form-label">Email address</label>
