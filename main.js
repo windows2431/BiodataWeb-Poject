@@ -19,11 +19,11 @@ function onFormSubmit(e) {
     const subject = $("#inp_subject")
     const message = $("#inp_message")
     
-    if(!$(email).var()) {
+    if(!$(email).val()) {
         alert("Email is requiared")
-    } else if (!$(subject).var()) {
+    } else if (!$(subject).val()) {
         alert("subject is requiared")
-    } else if (!$(message).var()) {
+    } else if (!$(message).val()) {
         alert("message is requiared")
     } else {
         alert("Form Submitted")
